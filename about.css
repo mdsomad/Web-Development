@@ -1,0 +1,304 @@
+
+/** select Using propertys */
+#heading{                                          /** <--select by id */   
+    color: rgb(255, 234, 0);
+    background-color: red;
+}
+
+.textColor                                        /** <--select by Class */  
+{
+    color: greenyellow;
+    background-color: rgba(0, 68, 68,0.4);     /** <-- obesity control*/
+}
+
+h3,p                                             /** <--select by tag */ 
+{
+    color: #4B0150
+}
+
+
+body
+{
+    background-color: #4B0150;
+}
+
+
+
+
+
+
+
+/** Background image & color Using propertys */
+.main-container
+{
+    background-image: url("tree.jpg");
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+    background-image: url("tree.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;            /** image no scroll only content scroll */
+    background-position:right;
+    
+}
+
+.container
+{
+   background: fixed no-repeat top url('tree.jpg') red;     /** <-- Single line Mein Sara property add Karne Ka Tarika*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/** Border Using propertys */
+h1
+{
+    border-bottom: dotted solid double dashed;     /** 4 value add apply --> top right bottom left */
+    border-bottom: dotted solid double ;           /** 3 value add apply --> top right left bottom */
+    border-bottom: dotted solid  ;                 /** 2 value add apply --> top bottom right left */
+    border-bottom: solid  ;                        /** 1 value add All apply --> top right bottom left */
+    border-width: 20px;
+    border-radius: 5px;
+}
+
+div
+{
+    height: 200px;
+    width: 100%;     /** <-- full width Occupy */
+    border-style: solid;
+    border-width: 10px;
+    border-color: greenyellow;
+    border-radius: 5px;
+}
+
+
+h1
+{
+    border: 2px solid red;          /** <-- Single line Mein border ka property add Karne Ka Tarika*/
+    border-left: 2px solid red;     /** <-- only left apply Single line Mein border ka property add Karne Ka Tarika*/
+}
+
+
+
+
+
+
+
+
+
+/** Margin Using propertys */
+p{
+    background-color: green;
+    color: white;
+    width: 600px;
+    border: 2px solid hotpink;
+ /**  margin: 300px;  */                            /** <-- Single Value add All margin (top=300px right=300px bottom=300px left=300px) */
+ /**  margin: 300px 100px;  */                      /** <-- 2 Value add All margin (top bottom =300px left right = 100px */
+ /**  margin: 300px 100px 500px;  */                /** <-- 3 Value add All margin (top=300px bottom=500px left right=100px */
+ /**  margin: 300px 100px 500px 600px;  */          /** <-- 4 Value add All margin (top=300px right=100px bottom=500px left=600px */
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/** padding Using propertys */
+p{
+    background-color: green;
+    color: white;
+    width: 600px;
+    border: 10px solid hotpink;
+    padding: 20px 10px 50px 60px;         /** <-- multiple value add*/
+    outline: 5px solid yellow;
+    font-family: cursive;
+    
+}
+
+button
+{   
+    border:none;
+    background-color: hotpink;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/** position Useing propertys*/
+.nav-bar
+{
+    height: 70px;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    line-height: 70px;
+    padding: 10px;
+    font-family: cursive;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+   
+}
+
+.container
+{
+  height: 800px;
+  width: 600px;
+  background-color: powderblue;
+  position: relative;
+  left: 200px;
+  z-index: -1;
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+   
+}
+
+h1
+{
+   position: absolute;  
+   top:100px;
+   left: 100px;
+}
+
+
+button
+{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** z-index using */
+.container
+{
+   position: relative;
+}
+
+
+.box1
+{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+  top: 30px;
+  z-index: 10;           /** <-- z-index overlap issue fix */
+}
+
+
+.box2
+{
+   height: 100px;
+   width: 100px;
+   background-color: blue;
+   position: relative;
+   /** z-index: -1; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/** Text propertys Using */
+.container
+{
+   position: relative;
+   width: 200px;
+   height: 300px;
+   background-color: green;
+   /* overflow: hidden; */
+   /* overflow: scroll; */
+   overflow: auto;
+}
+
+
+
+
+.container:hover                         /** <-- mouse cursor pointer add*/
+{
+    background-color: cyan;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+p
+{
+    color: white;
+    font-family: cursive;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    /* text-align: center; */
+    text-align: justify;
+    /* text-decoration: underline; */
+    /* text-decoration:line-through; */
+    /* text-decoration:overline; */
+    text-indent: 3px;                   /** <--Test starting space*/
+    letter-spacing: 1px;                /** <--letter spacing beach spacing*/
+    word-spacing: 5px;                  /** <--word spacing spacing*/
+}
+
+
+h1
+{
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: teal;
+    text-shadow: 2px 2px 5px hotpink;
+}
+
+
+h1:hover
+{
+    color: hotpink;
+    cursor: pointer;
+    font-size: 20px;
+ 
+}
