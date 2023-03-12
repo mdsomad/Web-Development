@@ -1,0 +1,136 @@
+*
+{
+    margin: 0px;            /** <-- by default margin & padding remove*/
+    padding: 0px;
+}
+
+
+/** Gradient Color Propertys  */
+.nav-bar
+{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right, red,green,yellow);
+}
+
+h1
+{
+    line-height: 100px;          /** <-- text left center*/
+    color: white;
+}
+
+
+.Box
+{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(circle,red,blue)
+}
+
+.Box2
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red 45deg,green 90deg,blue);
+
+    border-radius: 50%;     /** <-- circular box*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+* propertys - transform
+* value:-
+* translate()
+* rotate()
+* scale()
+* scaleX()
+* scaleY()
+* skew()
+* skewX()
+* skewY()
+* matrix()
+* transform()
+* transform:matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())        /** <-- Single Line All property add     */
+
+
+
+.Box
+{
+    height: 200px;
+    width: 200px;
+    margin-top: 250px;
+    margin-left: 300px;
+    background-color: red;
+    /* transform: translate(10px,100px); */
+    /* transform: rotate(50deg); */
+  
+
+    
+}
+
+.Box:hover
+{
+
+   
+
+      /** scale property use*/
+      /*transform: scale(2,3);  */      /** <-- width = 2*  height 3*  */
+      /*transform: scale(0.5,3); */     /** <-- width = 2*  height 3*  */
+      /*transform: scaleY(0.5); */      /** <-- only width control  */
+      /*transform: scaleX(0.5); */      /** <-- only height control  */
+
+
+      /** skew property use*/
+      /* transform: skew(20deg,10deg); */
+      /* transform: skewX(10deg); */
+      /* transform: skewY(10deg); */
+
+      /** Single Line All property add */
+      transform:matrix(1,-0.3,0,1,0,0);
+      transition: 1s;
+
+     
+}
+
+
+p
+{
+    line-height: 200px;
+    color: white;
+}
+
+
+
+
+
+
+
+/** transition 2 value add */
+.Box2
+{
+    height: 100px;
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 300px;
+    background-color: red;
+    transition: width 1s ,height 2s;
+}
+
+
+.Box:hover
+{
+    width: 300px;
+    height: 300px;
+}
