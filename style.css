@@ -1,74 +1,89 @@
+
 *
 {
-    margin: 0px;            /** <-- by default margin & padding remove*/
+    margin: 0px;
     padding: 0px;
 }
 
 
 
 
-
-/** Animation Propertys uss*/
-.Box
+/**  Propertys uss*/
+body
 {
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    position: relative;
-    animation-name:demoAnimation;
-    animation-duration: 17s;
-    animation-iteration-count: infinite;
-    animation-delay: 2s;
-
-   /* animation:demoAnimation 17s 2s infinite; */   /** <-- Single Ling All property add */
-
+    background-color:yellow;
     
 }
 
 
-/*TODO Create Animation */
-@keyframes demoAnimation{
-    /* from
-    {
-      background-color: plum;
-    }
-    to
-    {
-        background-color:yellow;
-    } */
-
-
-    0%
-    {
-        background-color: red;
-        top: 0px;
-        left: 0px;
-    }
-    25%
-    {
-        background-color: yellow;
-        top: 0px;
-        left: 300px;
-    }
-    50%
+/* @media screen and (max-width:750px){
+    body
     {
         background-color: teal;
-        top: 300px;
-        left: 300px;
     }
-    75%
+    .main
     {
         background-color: blue;
-         left: 0px;
-         top: 300px;
-
     }
-    100%
+} */
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1000px){
+    body
     {
-        background-color: orange;
-         left: 0px;
-         top: 0px;
+        background-color: teal;
     }
     
+    .parent
+    {
+        background-color: purple;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.parent
+{
+    height: 500px;
+    width: 100%;
+    background-color: hotpink;
+    display: flex;                         /** <-- display: flex by default ROW Hota Hai*/   
+    /* flex-direction:row-reverse; */
+    /* flex-direction:column-reverse */
+    /* flex-direction:column; */
+    /*flex-wrap:wrap;*/                       /** <-- by default value:- nowrap*/
+
+
+
+    /* justify-content:space-around; */
+    justify-content: center;              /** <--horizontal center*/       
+    align-items:center;                  /** <--vertical center*/
+
+}
+
+
+
+.box
+{
+    width: 100px;
+    height:50px ;
+    padding: 20px;
+    margin: 10px;
+    background-color: teal;
+}
+
+
+
+
 
