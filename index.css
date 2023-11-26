@@ -18,13 +18,13 @@ body{
 h1{
   font-family: 'Urbanist', sans-serif;
   font-size: 54px;
-  font-weight: 300;
+  font-weight: 900;
   /* font-style: italic; */
 }
 h2{
   font-family: 'somadFont';
   font-size: 54px;
-  font-weight: 900;
+  font-weight: 300;
   /* font-style: italic; */
 }
 
