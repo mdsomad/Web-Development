@@ -1,8 +1,5 @@
-# Text Properties
-### Before UI
-![Screenshot 2023-11-27 120336](https://github.com/mdsomad/Web-Development/assets/103892160/9b3f328e-7fb8-4aee-aa18-b0fc9179421c)
-### After UI
-![Screenshot 2023-11-27 123530](https://github.com/mdsomad/Web-Development/assets/103892160/a360fc60-4f52-4a24-873d-c3301465a9fa)
+# Box Model Properties
+![Screenshot 2023-11-28 193521](https://github.com/mdsomad/Web-Development/assets/103892160/178e0cd0-7533-43e1-8b14-2df661122e0a)
 ```sh
 body {
   background-color: hsl(0, 0%, 94%);
@@ -10,42 +7,37 @@ body {
   place-items: center;
 }
 
-.hero-section {
-  width: 50%;
-}
+.section-border {
+  width: 1000px;
+  color: #fff;
+  /* background-color: #5e9de9; */
+  /*? border hear */
+  /* border:  15px solid #003180; */
 
-h1 {
-  font-size: 54px;
-  font-weight: 900;
-  /*? Text Properties */
-  text-align: left;
-  text-decoration-line: underline;
-  -moz-text-decoration-line: underline;
-  text-decoration-color: red;
-  text-decoration-thickness: 10px;
-  text-decoration-style: solid;
-  text-transform: capitalize;
-  text-shadow: -2px -2px 5px green ;
+  /*? write each property individual */
+  /* border-width: 15px;
+  border-style: solid;
+  border-color: #003180; */
+
+  /*? we can write them individually too */
+  border-top: 15px solid #003180;
+  border-right: 15px dotted red;
+  border-bottom: 15px ridge green;
+  border-left: 15px double #003b99;
+
+  /*? Now further we can go more deeper with each individual values */
+  /* border-top-width: 15px;
+  border-top-style: solid;
+  border-top-color: #003b99; */
 }
 
 p {
-  font-size: 20px;
-  font-weight: 300;
-  /*? Text Properties */
-  letter-spacing: 1.2px;
-  word-spacing: 1px;
-  line-height: 1.56;
-  /* white-space: nowrap; */
+  color: #000;
 }
 
-/*? :: first-letter pseudo-element in CSS */
+/** Custom shape create Website Link --> https://9elements.github.io/fancy-border-radius/#100.100.0.0--. */
 
-p::first-letter{
-  text-transform: uppercase;
-  font-size: 45px;
-  font-weight: 600;
-  color: rgb(0, 0, 255);
-}
+/** Custom shape create Website Link --> https://10015.io/tools/css-border-radius-generator */
 
 
 ```
