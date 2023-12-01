@@ -9,68 +9,29 @@
 .section {
   width: 100%;
   height: 100vh;
-  color: #fff;
-  /*? linear Gradient Properties Top to Bottom*/
-  /* background-image: linear-gradient(red,yellow); */
-  /* background-image: linear-gradient(180deg, red,yellow); */
-
-  /*? linear Gradient Properties left to Right */
-  /* background-image: linear-gradient(to right, red,yellow); */
-
-  /*? linear Gradient Properties Right to Left */
-  /* background-image: linear-gradient(to left, red,yellow); */
-  /* background-image: linear-gradient(270deg, red,yellow); */
-
-  /*? linear Gradient Properties Bottom to Top */
-  /* background-image: linear-gradient(to top, red,yellow); */
-  /* background-image: linear-gradient(90deg, red,yellow); */ /* <-- same*/
-
-  /*? linear Gradient Properties to bottom right */
-  /* background-image: linear-gradient(to bottom right, red,yellow); */
-
-  /*? linear Gradient Properties to bottom right */
-  /* background-image: linear-gradient(to top left, red,yellow); */
-
-  /*? linear Gradient Properties multiple colour using */
-  /* background-image: linear-gradient(to right top,
-    #051937,
-    #004d7a,
-    #008793,
-    #00bf72,
-    #a8eb12,
-  
-  ); */
-
-  /*? Repeating linear Gradient Properties*/
-  /* background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 50px); */
-
-  /*? linear Gradient Properties & Background Image use*/
-  /* background-image: linear-gradient(
-      to right top,
-      rgba(5, 25, 55, 0.5),
-      rgba(0, 77, 122, 0.5),
-      rgba(0, 135, 147, 0.5),
-      rgba(0, 191, 114, 0.5),
-      rgba(168, 235, 18, 0.5)
-    ),
-    url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1600");
-  background-repeat: no-repeat;
-  background-size: cover; */
-
-  /*? Radial Gradient Properties */
-  /* background-image: radial-gradient(ellipse, red,yellow,green) */
-  /* background-image: radial-gradient(circle, red 20%,yellow 40%,green 40%) */
-
-  /* background-image: radial-gradient(circle, red 20%,yellow 40%,green 40%) */
-
-  /*? Repeating Radial Gradient Properties */
-  background:radial-gradient(
-    circle at center,
-    #ff5733 0%,
-    #ffc300 20%,
-    #ff5733 40%,
-    #2980b9 60%,
-    #33ff57 80%,
-    #2980b9 100%
-  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+img{
+ width: 50%;
+ border-radius: 20px;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+   rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  /*? <filter-function> values */
+   /* filter: grayscale(); */
+   /* filter: blur(5px); */
+   /* filter: brightness(200%); */
+   /* filter: contrast(150%); */
+   /* filter: saturate(150%); */
+   /* filter: invert(100%); */
+   /* filter: opacity(0.5); */
+   /* filter: hue-rotate(90deg); */
+   /* filter: sepia(60%); */
+   /* filter: drop-shadow(16px 16px 20px blue); */
+   /*? Multiple filters Use */
+   /* filter: blur(3px) grayscale(0.5) contrast(1.2); */
+   
+   
+}
+  

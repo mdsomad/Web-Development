@@ -1,28 +1,410 @@
-# Padding Properties
-![Screenshot 2023-11-28 193521](https://github.com/mdsomad/Web-Development/assets/103892160/3e3803f1-1d82-4fb4-81ad-a68048a6b0ed)
-<img src="https://github.com/mdsomad/Web-Development/assets/103892160/0a3e5f11-7c99-4583-b648-38bd8724797c" alt="Home Screen" width="270"/>
-```sh
-body {
-  background-color: hsl(0, 0%, 94%);
-  display: grid;
-  place-items: center;
-}
+# Filters Properties in CSS
 
-.section-border {
-  width: 1000px;
-  color: #fff;
-  /* background-color: #5e9de9; */
-  /*? border hear */
-  border:  15px solid #ff0000;
- 
-  /** Padding Top | Right | Buttom | Left */
-  padding: 10px 10px 5px 10px;
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
   
-}
+  
+<tr>
 
-p {
-  color: #000;
-}
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
 
 
+</tr>
+
+</table>
+
+### Filter-function values
+```sh
+ filter: grayscale(); 
+```
+
+
+
+
+
+
+
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+### Filter-function values
+```sh
+ filter: blur(5px); 
+```
+
+
+
+
+
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+### Filter-function values
+```sh
+ filter: brightness(200%);
+```
+
+
+
+
+
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+### Filter-function values
+```sh
+ filter: contrast(150%); 
+```
+
+
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+### Filter-function values
+```sh
+ filter: saturate(150%); 
+```
+
+
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+### Filter-function values
+```sh
+ filter: invert(100%);
+```
+
+
+
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+### Filter-function values
+```sh
+ filter: opacity(0.5); 
+```
+
+
+
+
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+### Filter-function values
+```sh
+ filter: hue-rotate(90deg); 
+```
+
+
+
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+### Filter-function values
+```sh
+ filter: sepia(60%);
+```
+
+
+
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+### Filter-function values
+```sh
+ filter: drop-shadow(16px 16px 20px blue);
+```
+
+
+
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="" width="50%"/>
+
+</td>
+<td>
+
+<img src=""  width="50%"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+### Multiple filters Use values
+```sh
+ filter: blur(3px) grayscale(0.5) contrast(1.2); 
 ```
