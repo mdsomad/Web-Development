@@ -1,5 +1,6 @@
 # Lists Properties in CSS
 
+![Screenshot 2023-12-02 154804](https://github.com/mdsomad/Web-Development/assets/103892160/75b2902e-c33f-468c-9211-d61d5db7e9ef)
 
 ```sh
 .lists{
