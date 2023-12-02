@@ -1,6 +1,8 @@
-# Lists Properties in CSS
+# Anchor Properties in CSS
 
-![Screenshot 2023-12-02 154804](https://github.com/mdsomad/Web-Development/assets/103892160/75b2902e-c33f-468c-9211-d61d5db7e9ef)
+![Screenshot 2023-12-02 161956](https://github.com/mdsomad/Web-Development/assets/103892160/da8d3094-3808-4e44-bc4e-cbaa3f8b8f80)
+![Screenshot 2023-12-02 162325](https://github.com/mdsomad/Web-Development/assets/103892160/a46620da-ebae-4a21-ae7b-f7a94356ada6)
+
 
 ```sh
 * {
