@@ -27,7 +27,6 @@
 
 </table>
 
-### Filter-function values
 
 ```sh
 * {
