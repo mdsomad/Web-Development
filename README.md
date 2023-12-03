@@ -1,6 +1,7 @@
 # Column Layout Properties in CSS
 
 <table>
+
   <tr>                    
    
    <th>Before View</th>
@@ -13,12 +14,12 @@
 
 <td>
 
-<img src=""/>
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/24637761-9838-4ce4-8451-b83717e1cd02"/>
 
 </td>
 <td>
 
-<img src=""  />
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/df9f21fe-5089-4235-9b3f-f3bae6d934fe"  />
 
 </td>
 
