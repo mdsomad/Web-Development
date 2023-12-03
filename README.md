@@ -1,11 +1,34 @@
-# Anchor Properties in CSS
+# Pseudo Elements Properties in CSS
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
 
-![Screenshot 2023-12-02 161956](https://github.com/mdsomad/Web-Development/assets/103892160/da8d3094-3808-4e44-bc4e-cbaa3f8b8f80)
-![Screenshot 2023-12-02 162325](https://github.com/mdsomad/Web-Development/assets/103892160/a46620da-ebae-4a21-ae7b-f7a94356ada6)
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/09b1670a-d4ed-4bdb-943f-204ff66a708d"/>
+
+</td>
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/c419442d-060f-4b2a-ad88-2d24661f85e4"  />
+
+</td>
 
 
+</tr>
+
+</table>
+
+### Filter-function values
 ```sh
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,32 +41,38 @@ body {
   align-items: center;
   justify-content: center;
 }
-.section-hero a {
-  color: #080a0c;
-}
-
-.section-hero a:link {
-  background-color: #fff;
+.section-hero h1 {
+  font-size: 30px;
+  position: relative;
   display: inline-block;
-  padding: 10px 32px;
-  text-transform: capitalize;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 24px;
-  font-weight: bold;
 }
 
-
-.section-hero a:visited{
-  color: #d67e03;
+/*? Before Pseudo elements */
+.section-hero h1::before{
+  content: "Somad";
+  position: absolute;
+  top: -25px;
+  font-size: 14px;
+  letter-spacing: 4px;
+  color:#ffcc70;
 }
 
-.section-hero a:hover{
-  color: #0062ff;
+/*? After Pseudo elements */
+.section-hero h1::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 2px solid red;
+  width: 70%;
 }
 
-.section-hero a:active{
-  color: #f31559;
+div{
+  margin-top: 10px;
+}
+
+p::selection{
+  background-color: teal;
 }
 
 ```
