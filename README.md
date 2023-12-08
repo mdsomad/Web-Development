@@ -520,7 +520,7 @@
 </td>
 <td>
 
-<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/0b7afc4a-9ece-44ad-bea0-b87949e3e055"/>
 
 </td>
 
@@ -534,6 +534,7 @@
   transform: skewY(-20deg);
 }
 ```
+
 
 
 <table>
@@ -554,7 +555,7 @@
 </td>
 <td>
 
-<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/2b0bb9ad-bb55-4d9a-8593-8b61d824513e"/>
 
 </td>
 
@@ -590,7 +591,7 @@
 </td>
 <td>
 
-<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/57110f5e-766e-426c-9e9d-621f6ffc3b31"/>
 
 </td>
 
@@ -604,6 +605,7 @@
   transform-origin: left;
 }
 ```
+
 
 
 <table>
@@ -624,7 +626,7 @@
 </td>
 <td>
 
-<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/34cf0e94-d5dd-4fe2-88ff-d69c930c6e36"/>
 
 </td>
 
@@ -658,7 +660,7 @@
 </td>
 <td>
 
-<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/19c48b2a-3175-4dbc-bde4-d338c0ba0e4c"/>
 
 </td>
 
@@ -674,3 +676,4 @@
   rotate: 45deg;
 }
 ```
+
