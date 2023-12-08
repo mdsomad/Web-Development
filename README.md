@@ -30,7 +30,7 @@
 
 ```sh
 .container img:hover {
-
+  transform: translateX(500px);
 }
 ```
 
@@ -69,7 +69,7 @@
 
 ```sh
 .container img:hover {
-
+ transform: translateY(-500px); 
 }
 ```
 
@@ -107,10 +107,11 @@
 
 </table>
 
-
+###  New latest features & Method
+- Right & Bottom
 ```sh
  .container img:hover {
-
+  translate: 500px 200px;
 }
 ```
 
@@ -147,10 +148,11 @@
 
 </table>
 
-### Filter-function values
+###  New latest features & Method
+- Left & Top
 ```sh
- .container img:hover {
-
+.container img:hover {
+  translate: -500px -200px;
 }
 ```
 
@@ -185,10 +187,11 @@
 
 </table>
 
-
+### New latest features & Method
+- Scale Down
 ```sh
 .container img:hover {
-
+ scale: 0.5;
 }
 ```
 
@@ -223,10 +226,11 @@
 
 </table>
 
-
+### Old Methods
+- Scale Up
 ```sh
 .container img:hover {
-
+   transform: scale(2);
 }
 ```
 
@@ -265,7 +269,7 @@
 
 ```sh
 .container img:hover {
-
+  transform: scaleX(0.5);
 }
 ```
 
@@ -301,7 +305,7 @@
 
 ```sh
 .container img:hover {
-
+  transform: scaleY(2);
 }
 ```
 
@@ -341,7 +345,7 @@
 
 ```sh
 .container img:hover {
-
+  transform: rotate(90deg); 
 }
 ```
 
@@ -379,8 +383,8 @@
 
 
 ```sh
- .container img:hover {
-
+.container img:hover {
+  transform: rotate(180deg);
 }
 ```
 
@@ -417,6 +421,248 @@
 
 ```sh
 .container img:hover {
+  transform: rotateX(45deg);
+}
+```
 
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/d4dd68bf-fb54-4e64-90c0-b6bce352ca9a"/>
+
+</td>
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+```sh
+.container img:hover {
+  transform: skew(20deg);
+}
+```
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/d4dd68bf-fb54-4e64-90c0-b6bce352ca9a"/>
+
+</td>
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+```sh
+.container img:hover {
+  transform: skewX(-20deg);
+}
+```
+
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/d4dd68bf-fb54-4e64-90c0-b6bce352ca9a"/>
+
+</td>
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+```sh
+.container img:hover {
+  transform: skewY(-20deg);
+}
+```
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/d4dd68bf-fb54-4e64-90c0-b6bce352ca9a"/>
+
+</td>
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+```sh
+.container img:hover {
+  rotate: 20deg;
+}
+```
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/d4dd68bf-fb54-4e64-90c0-b6bce352ca9a"/>
+
+</td>
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+```sh
+.container img:hover {
+  transform-origin: left;
+}
+```
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/d4dd68bf-fb54-4e64-90c0-b6bce352ca9a"/>
+
+</td>
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+```sh
+.container img:hover {
+  transform-origin: right;
+}
+```
+
+
+<table>
+  <tr>                    
+   
+   <th>Before View</th>
+   <th>Aftert View</th>
+
+</tr>
+  
+  
+<tr>
+
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/d4dd68bf-fb54-4e64-90c0-b6bce352ca9a"/>
+
+</td>
+<td>
+
+<img src="https://github.com/mdsomad/Web-Development/assets/103892160/75fa2d16-27b8-4de2-90fa-3e0d3b6816de"/>
+
+</td>
+
+
+</tr>
+
+</table>
+
+```sh
+.container img:hover {
+  transform: 100px;
+  scale: 0.5;
+  rotate: 45deg;
 }
 ```
