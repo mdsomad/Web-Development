@@ -1,29 +1,93 @@
-# Perspective Properties in CSS
-![Screenshot 2023-12-08 212534](https://github.com/mdsomad/Web-Development/assets/103892160/354f9f80-7918-4052-8b33-2444adeff9e3)
-### Without --> Perspective Properties Use view
-```sh
-.container {
-  width: 100vw;
+
+```
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
   height: 100vh;
+  display: grid;
+  /* justify-content: center; */
+  /* align-items: center; */
+  place-items: center;
+  background-color: #191825;
+}
+
+.cradle {
+  width: 50rem;
+  height: 50rem;
+  background-color: transparent;
+  border-top: 2rem solid #865dff;
+  border-radius: 0.5rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  box-shadow:  inset 0 0 0 5px #4861ec;
+  gap: 4.55rem;
 }
-```
-![Screenshot 2023-12-08 212609](https://github.com/mdsomad/Web-Development/assets/103892160/2f9e3f5e-549f-44e5-b6d7-c07fdb7a5770)
-### Perspective Properties Use view
-```sh
-.container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow:  inset 0 0 0 5px #4861ec;
-  perspective: 1000px;
+
+.cradle div {
+  width: 0.5rem;
+  height: 20rem;
+  background-color: #865dff;
+  position: relative;
 }
+
+.cradle div::before {
+  content: "";
+  position: absolute;
+  /* bottom: 0; */
+  left: -2.25rem;
+  top: 90%;
+  width: 5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #865dff;
+}
+
+.cradle div:first-child {
+  animation: left-swing 2s linear infinite;
+  transform-origin: top left;
+}
+.cradle div:last-child {
+  animation: right-swing 2s linear infinite 1s;
+  transform-origin: top left;
+}
+
+@keyframes left-swing {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: 30deg;
+  }
+  50% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
+@keyframes right-swing {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: -30deg;
+  }
+  50% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
 ```
-![Screenshot 2023-12-08 212512](https://github.com/mdsomad/Web-Development/assets/103892160/bcecb4e4-4f37-457e-b300-762b348774e1)
 
 
