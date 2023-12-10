@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Urbanist";
 }
 
 html {
@@ -16,40 +17,31 @@ body {
   background-color: #191825;
 }
 
-.loader{
-  width: 20rem;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background-color: #865dff;
-  position: relative;
-  animation: circleloader 2s linear infinite reverse;
+button{
+  padding:  12px 36px;
+  border: 2px solid #865dff;
+  text-align: center;
+  color: #865dff;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: transparent;
+   
+  &:hover{
+    border: 2px solid #d80032;
+    color: #d80032;
+    animation: shaking 0.2s linear;
+  } 
 }
 
-@keyframes circleloader {
-  100% {
-    rotate: 360deg;
+@keyframes shaking {
+  0% {
+    rotate: 20deg;
   }
-}
-
-.loader::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 17rem;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background-color:#191825;
-}
-.loader:after{
-  content: "";
-  position: absolute;
-  top: -2.5rem;
-  left: 8.5rem;
-  width: 5rem;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background-color:#865dff;
-  box-shadow: 0 0 1rem #865dff , 0 0 1.5rem #865dff, 0 0 2rem #865dff,
-  0 0 2.5rem #865dff, 0 0 3rem #865dff; 
+  50% {
+    rotate: -20deg;
+  }
+  100% {
+    rotate: 20deg;
+  }
 }
