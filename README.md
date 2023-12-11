@@ -7,22 +7,14 @@
 
 
 
-https://github.com/mdsomad/Web-Development/assets/103892160/37aa431e-d5c3-4a1b-af61-b0eeea993c65
-
-
-
-
-
-
 
 
 ```
-@import url("https://fonts.googleapis.com/css2?family=Allura&family=Bungee+Spice&family=Caveat&family=Urbanist:ital,wght@0,100;0,500;0,900;1,200;1,400&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
@@ -34,24 +26,35 @@ body {
 }
 
 h1 {
-  font-size: 48px;
-  font-family: "Bungee Spice", sans-serif;
-  text-shadow: -3px 10px 10px rgba(249, 141, 141, 0.2);
-  color: #865dff;
+  font-size: 96px;
+  font-weight: bold;
+  text-shadow: -1px 2px 3px rgba(236, 247, 76, 0.2);
+  color: #fff;
   text-transform: uppercase;
-  text-align: center;
-  animation: textfloating 2s linear infinite alternate;
+  position: relative;
 }
 
-@keyframes textfloating {
+h1::before {
+  content: "NeonWolf...";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  color: #ff1493;
+  border-right: 2px solid #ff1493;
+  overflow: hidden;
+  animation: textreveal 2s linear infinite;
+}
+
+@keyframes textreveal {
   0% {
-    rotate: 15deg;
+    width: 0;
   }
   50% {
-    rotate: 0deg;
+    width: 100%;
   }
   100% {
-    rotate: -15deg;
+    width: 0;
   }
 }
 
