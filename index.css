@@ -1,12 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Bungee+Spice&family=Caveat&family=Urbanist:ital,wght@0,100;0,500;0,900;1,200;1,400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Urbanist";
-}
-
-html {
-  font-size: 62.5%;
 }
 
 body {
@@ -17,31 +14,24 @@ body {
   background-color: #191825;
 }
 
-button{
-  padding:  12px 36px;
-  border: 2px solid #865dff;
-  text-align: center;
+h1 {
+  font-size: 48px;
+  font-family: "Bungee Spice", sans-serif;
+  text-shadow: -3px 10px 10px rgba(249, 141, 141, 0.2);
   color: #865dff;
-  font-weight: bold;
-  font-size: 20px;
-  text-transform: capitalize;
-  background-color: transparent;
-   
-  &:hover{
-    border: 2px solid #d80032;
-    color: #d80032;
-    animation: shaking 0.2s linear;
-  } 
+  text-transform: uppercase;
+  text-align: center;
+  animation: textfloating 2s linear infinite alternate;
 }
 
-@keyframes shaking {
+@keyframes textfloating {
   0% {
-    rotate: 20deg;
+    rotate: 15deg;
   }
   50% {
-    rotate: -20deg;
+    rotate: 0deg;
   }
   100% {
-    rotate: 20deg;
+    rotate: -15deg;
   }
 }
