@@ -2,46 +2,78 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
   height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #191825;
+  background-color: #ffe4d6;
 }
 
-h1 {
-  font-size: 96px;
-  font-weight: bold;
-  text-shadow: -1px 2px 3px rgba(236, 247, 76, 0.2);
-  color: #fff;
-  text-transform: uppercase;
-  position: relative;
+.universe {
+  width: 40vw;
+  aspect-ratio: 1;
+  background-color: #ffbb5c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  animation: skychange 10s ease-in-out infinite;
 }
 
-h1::before {
-  content: "NeonWolf...";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  color: #ff1493;
-  border-right: 2px solid #ff1493;
-  overflow: hidden;
-  animation: textreveal 2s linear infinite;
-}
-
-@keyframes textreveal {
+@keyframes skychange {
   0% {
-    width: 0;
+    background-color: #ffbb5c;
+  }
+  25% {
+    background-color: #ffbb5c;
   }
   50% {
-    width: 100%;
+    background-color: #000000;
+  }
+  75% {
+    background-color: #ffbb5c;
   }
   100% {
-    width: 0;
+    background-color: #ffbb5c;
+  }
+}
+
+.sun {
+  width: 18vw;
+  aspect-ratio: 1;
+  background-color: #e25e3e;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    aspect-ratio: 1;
+    border-radius: inherit;
+    background-color: #000;
+    animation: moonwalk 10s ease-in-out infinite;
+  }
+}
+
+@keyframes moonwalk {
+  0% {
+    translate: 100%;
+  }
+  50% {
+    translate: 0%;
+    scale: 0.95;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 45px 100px 0px;
+  }
+  100% {
+    translate: -100%;
+    scale: 0.95;
   }
 }
